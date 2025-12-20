@@ -1,6 +1,7 @@
 import { Prisma } from "@prisma/client";
 import { siteConfig } from "@config/site";
 import { PunishmentListItem } from "@/types";
+import "server-only";
 
 import { db } from "../db";
 import { Dictionary } from "../language/types";
